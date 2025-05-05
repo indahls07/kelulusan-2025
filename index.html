@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pengumuman Kelulusan SMKN 5 Selayar</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #004080;
+    }
+    input {
+      padding: 10px;
+      width: 280px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .status {
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pengumuman Kelulusan SMKN 5 Selayar</h1>
+  <p>Masukkan NISN Anda untuk melihat status kelulusan:</p>
+  <input type="text" id="nisn" placeholder="Contoh: 1234567890">
+  <br>
+  <button onclick="cekKelulusan()">Cek Kelulusan</button>
+  <div class="status" id="statusKelulusan"></div>
+
+  <script src="kelulusan.js"></script>
+</body>
+</html>
